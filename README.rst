@@ -68,12 +68,12 @@ The path to this file can be provided interactively or using the
 records the path to this file for use during renewal, but does not store the
 file's contents.
 
-**CAUTION:** You should protect these API token as you would protect the
+**CAUTION:** You should protect the API token as you would protect the
 password to your RcodeZero account. Users who can read this file can use these
 credentials to issue arbitrary API calls on your behalf. Users who can cause
 Certbot to run using these credentials can complete a ``dns-01`` challenge to
-acquire new certificates or revoke existing certificates for associated
-domains, even if those domains aren't being managed by this server. 
+acquire new certificates or revoke existing certificates for any domain under the 
+RcodeZero account, even if those domains aren't being managed by this server. 
 
 Certbot will emit a warning if it detects that the credentials file can be
 accessed by other users on your system. The warning reads "Unsafe permissions
