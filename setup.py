@@ -17,6 +17,6 @@ def exec_file(path):
 metadata = exec_file('certbot_dns_rcode0.py')
 
 setup(
-    version = metadata['__version__'],
+    version = "1.0.0",
     url     = metadata['__url__'],
 )
