@@ -18,5 +18,5 @@ metadata = exec_file('certbot_dns_rcode0.py')
 
 setup(
     version = "1.0.0",
-    url     = "https://github.com/saschadaniels/certbot-dns-rcode0",
+    url     = metadata['__url__'],
 )
